@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Environment variables (NEVER commit this!)
+.env
+.env.local
+.env.*.local
+
+# Private components (not open source)
+AeolousDashboard/
+AeolousAPI/
+web/
+
+# Build outputs
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Temporary files
+*.tmp
+.cache/

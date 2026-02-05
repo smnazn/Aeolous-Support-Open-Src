@@ -1,0 +1,63 @@
+{
+  "name": "aeolous-bot",
+  "version": "1.0.0",
+  "description": "A feature-rich Discord bot with music, moderation, AI integration, and custom commands",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "deploy": "node utils/deploy.js"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "music",
+    "moderation",
+    "discord.js"
+  ],
+  "author": "Aeolous Contributors",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smnazn/Aeolous-Support-Open-Src.git"
+  },
+  "dependencies": {
+    "@discord-player/extractor": "^4.4.0",
+    "@discordjs/opus": "^0.10.0",
+    "@discordjs/voice": "^0.19.0",
+    "@google/genai": "^1.30.0",
+    "@google/generative-ai": "^0.24.1",
+    "@noble/ciphers": "^1.2.1",
+    "@snazzah/davey": "^0.1.8",
+    "axios": "^1.13.2",
+    "cheerio": "^1.1.2",
+    "chromedriver": "^142.0.3",
+    "connect-mongo": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "discord-player": "^6.6.0",
+    "discord.js": "^14.25.1",
+    "dotenv": "^17.2.3",
+    "ejs": "^3.1.10",
+    "express": "^5.2.1",
+    "express-session": "^1.18.2",
+    "ffmpeg-static": "^5.3.0",
+    "kazagumo": "^3.4.0",
+    "libsodium-wrappers": "^0.7.15",
+    "mongodb": "^7.0.0",
+    "mongoose": "^9.0.0",
+    "passport": "^0.7.0",
+    "passport-discord": "^0.1.4",
+    "play-dl": "^1.9.7",
+    "selenium-webdriver": "^4.38.0",
+    "sharp": "^0.34.5",
+    "shoukaku": "^4.2.0",
+    "sodium-native": "^4.3.1",
+    "tweetnacl": "^1.0.3",
+    "uuid": "^13.0.0",
+    "youtube-dl-exec": "^2.5.8"
+  }
+}
